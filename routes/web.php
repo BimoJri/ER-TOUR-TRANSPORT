@@ -14,7 +14,8 @@ use App\Http\Controllers\carSearchController;
 use App\Models\User;
 use App\Models\Car;
 use App\Models\Reservation;
-
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ArticleController;
 
 // ------------------- guest routes --------------------------------------- //
 Route::get('/', function () {
@@ -49,9 +50,13 @@ function () {
 })->name('terms_conditions');
 
 
-// -------------------------------------------------------------------------//
-
-
+// -----------------------------------------article-----------------------------//
+Route::middleware('auth')->group(function () {
+    Route::get('/articles/create', [ArticleController::class, 'create'])->name('articles.create');
+    Route::post('/articles', [ArticleController::class, 'store'])->name('articles.store');
+    Route::get('/articles', [ArticleController::class, 'index'])->name('articles.index');
+    Route::resource('articles', ArticleController::class)->middleware('auth');
+});
 
 
 // ------------------- admin routes --------------------------------------- //
@@ -109,5 +114,8 @@ route::get('invoice/{reservation}', [invoiceController::class, 'invoice'])->name
 
 
 //---------------------------------------------------------------------------//
+
+Route::get('/payment', [PaymentController::class, 'index']);
+Route::post('/payment/checkout', [PaymentController::class, 'checkout']);
 
 Auth::routes();

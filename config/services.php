@@ -13,7 +13,14 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
-
+    'midtrans' => [
+        'serverKey' => env('SB-Mid-server-pjtFnEpewO1nB9QwHlYyNdUx'),
+        'clientKey' => env('SB-Mid-client-uFG0YRcfY_bZjJGl'),
+        'isProduction' => env('MIDTRANS_IS_PRODUCTION', false),
+        'isSanitized' => env('MIDTRANS_IS_SANITIZED', true),
+        'is3ds' => env('MIDTRANS_IS_3DS', true),
+    ],
+    
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),

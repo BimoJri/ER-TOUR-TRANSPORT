@@ -151,12 +151,7 @@
                             class=" text-gray-900">Why</span> Choose us</h2>
                 </div>
                 <div class="mt-7 mb-16">
-                    <p class="md:text-center text-xl text-justify mx-8 ">We
-                        prioritize your satisfaction and strive to make your car rental experience as seamless as possible.
-                        With our wide selection of well-maintained vehicles, competitive prices, and simple booking process,
-                        you can trust us to meet your needs. Our dedicated customer service team is available around the
-                        clock to assist you, ensuring that you receive the support you deserve. Whether you need a car for a
-                        weekend getaway or a long road trip, choose us for a hassle-free and enjoyable journey.</p>
+                    <p class="md:text-center text-xl text-justify mx-8 ">Welcome to ER Tour & Travel Yogyakarta – your trusted partner in exploring the wonders of Jogjakarta, Indonesia. Founded with a passion for travel and a deep love for our cultural heritage, ER Tour & Travel Yogyakarta is dedicated to providing exceptional travel experiences that showcase the rich history, vibrant culture, and natural beauty of this enchanting region.</p>
                 </div>
 
                 <div

@@ -1,0 +1,52 @@
+[33m11169a0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m update dependences
+[33m2b115e4[m update dependences
+[33md98eebe[m update read me
+[33m6cffb8d[m fix Car model typo in carSearch controller
+[33m13bae5f[m remove insurance, remake reservation page, fix delete cascade, remake invoice print
+[33m0c2448d[m add sweet alert & flatpickr and prevent mass reservations
+[33mc64c7dc[m test auto deploy 3
+[33m50fdc1f[m test auto deploy 2
+[33m49505d9[m test auto deploy
+[33m0f2845d[m add the deploy script
+[33mf0e9c0e[m fix deploy script
+[33mf8ce9b3[m Merge branch 'main' of github.com:Mohamed-Galdi/RealRentCar
+[33m7f57c1b[m fix assets
+[33maa47f6e[m Create deploy_rrc.yml
+[33m24467cd[m update dependences
+[33mb5ab3b2[m npm update
+[33m8b72afc[m Merge branch 'main' of github.com:Mohamed-Galdi/RealRentCar
+[33m268e274[m update dependences
+[33mc4255c8[m Merge pull request #1 from Mohamed-Galdi/dependabot/npm_and_yarn/postcss-8.4.31
+[33me844880[m Bump postcss from 8.4.24 to 8.4.31
+[33m0c508b4[m fix cars cards
+[33m3a20345[m fix some errors related to deployment, deployed succesfuly at https://realrentcar.galdi.dev/
+[33mba095b3[m resopnsive design, & add legal pages(privacy policy and term of use)
+[33m914f221[m fix reservation car relation, add client detail instead of delet client in admin dashbord
+[33m4a8d70d[m optimize images
+[33m18e166b[m fix storage problem 2
+[33m01592aa[m fix storage problem
+[33m9b92534[m finally, add admin and user interface videos to readme
+[33mf47dcc5[m add admin and user interface videos to readme 9
+[33mb797729[m add admin and user interface videos to readme 9
+[33m5e1d92f[m Update README.md
+[33mbadb99a[m Update README.md
+[33m6b17d2a[m add admin and user interface videos to readme 8
+[33m18f7c0c[m add admin and user interface videos to readme 7
+[33mdcd7177[m add admin and user interface videos to readme 6
+[33mc7c3a00[m add admin and user interface videos to readme 5
+[33ma38be72[m add admin and user interface videos to readme 4
+[33m3b46e58[m add admin and user interface videos to readme 3
+[33m54ed874[m add admin and user interface videos to readme 2
+[33md80ad9e[m add admin and user interface videos to readme
+[33md21667c[m fix an error in a migration
+[33m35851c3[m 12th day: make the store and download  invoice pdf feature. make middlewares (separate guests, clients and admins) & make the validation for all forms in the project. make seeder of demoAdmin.
+[33mad6442e[m 11th day: make the reservations payment and status edit and update &  make the delete client &  make the add new admin & thankyou page and start workink on the invoices
+[33m1c7054c[m 10th day: seed database with cars & reservations in admin dashbourd & clients and admin views in admin dashoard
+[33mac115ea[m 9th day (8th day was a busy day, not much coding): make reservation & start seeding data base
+[33m4e30d9a[m 6th and 7th days: finish users avatars & insurance part ( crud, relations, interfaces, display)
+[33m88df1f6[m 5th day: contact us, location and adminDashboard  pages + start working on addind avatars to users
+[33me420a4e[m 4th day: home page
+[33mc1fdac9[m 3th day: cars crud(image uplaod and destroy, update, delete, list on client view
+[33m8cb61f1[m 2nd day: sparate admin/client login & create admin pages (dashboard, list cars, add car form)
+[33m54929b6[m 1st day: make my app layout & build login and register pages
+[33m5b5f316[m setup the project: migrations, models, controllers, relations, auth, tailwind
