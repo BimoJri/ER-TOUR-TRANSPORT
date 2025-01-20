@@ -36,6 +36,11 @@ export default {
                     800: "#acacac",
                     900: "#acacac",
                 },
+                background: {
+                    green: '#676D54',
+                    grey: '#E3D8D5',
+
+                },
             },
         },
     },

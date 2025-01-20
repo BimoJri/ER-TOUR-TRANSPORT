@@ -11,7 +11,13 @@ class ArticleController extends Controller
     public function index()
     {
         $articles = Article::all();
-        return view('articles.index', compact('articles'));
+
+        if (auth()->check() && auth()->user()->isAdmin()) {
+            // Jika user adalah admin, tampilkan view admin
+            return view('articles.index', compact('articles'));
+        }
+
+        return view('articles.user_index', compact('articles'));
     }
 
     // Menampilkan halaman form untuk menambahkan artikel baru

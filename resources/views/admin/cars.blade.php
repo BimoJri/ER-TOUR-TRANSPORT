@@ -20,23 +20,23 @@
                             Image
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            brand
+                            Nama Paket
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            model
+                            Destinasi
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            engine
+                            Deskripsi Paket
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            price_per_day
+                            Harga Paket
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            quantity
+                            Jumlah
                         </th>
                         
                         <th scope="col" class="px-6 py-3">
-                            reserved
+                            Ketersediaan
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Action

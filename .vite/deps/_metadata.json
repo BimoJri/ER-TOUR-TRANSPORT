@@ -1,0 +1,29 @@
+{
+  "hash": "10001d71",
+  "browserHash": "9878da3d",
+  "optimized": {
+    "flowbite/dist/flowbite.min.js": {
+      "src": "../../node_modules/flowbite/dist/flowbite.min.js",
+      "file": "flowbite_dist_flowbite__min__js.js",
+      "fileHash": "232b1734",
+      "needsInterop": true
+    },
+    "bootstrap": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.esm.js",
+      "file": "bootstrap.js",
+      "fileHash": "26c0e237",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "709f7906",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-6TJCVOLN": {
+      "file": "chunk-6TJCVOLN.js"
+    }
+  }
+}

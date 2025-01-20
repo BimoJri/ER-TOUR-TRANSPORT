@@ -4,13 +4,13 @@
         <form action="">
            <div class="flex justify-center md:flex-row flex-col md:gap-28 gap-4">
                 <div class="flex justify-evenly md:flex-row flex-col md:gap-16 gap-2">
-                    <input type="text" placeholder="brand" name="brand"
+                    <input type="text" placeholder="Nama Paket" name="brand"
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
-                    <input type="text" placeholder="model" name="model"
+                        <!-- <input type="text" placeholder="model" name="model"
+                            class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6"> -->
+                    <input type="number" placeholder="Harga Terendah Rp." name="min_price"
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
-                    <input type="number" placeholder="$ minimum price " name="min_price"
-                        class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
-                    <input type="number" placeholder="$ maximum price " name="max_price"
+                    <input type="number" placeholder="Harga Tertinggi Rp." name="max_price"
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
                 </div>
                 <div>
@@ -26,6 +26,7 @@
             </div>
         </form>
     </div>
+    <!-- Paket Card -->
     <div class="mt-6 mb-2 grid md:grid-cols-3  justify-center items-center mx-auto max-w-screen-xl">
         @forelse ($cars as $car)
             <div
@@ -60,7 +61,7 @@
                                 </svg>
                             @endfor
                             <span
-                                class="mr-2 ml-3 rounded bg-pr-300 px-2.5 py-0.5 text-xs font-semibold">{{ $car->stars }}.0</span>
+                                class="mr-2 ml-3 rounded bg-pr-300 px-2.5 py-0.5 text-xs font-semibold">{{ $car->stars }}</span>
                         </div>
                     </div>
                     <a href="{{ route('car.reservation', ['car' => $car->id]) }}"
@@ -83,7 +84,7 @@
                 <p class="mx-auto"></p>
             </div>
             <div class="mx-auto max-w-screen-xl h-[300px] items-center ">
-                <p class="mx-auto mt-[100px] text-4xl font-medium font-car  ">no car fond ! </p>
+                <p class="mx-auto mt-[100px] text-4xl font-medium font-car  ">Tidak ada paket! </p>
             </div>
             <div class="mx-auto max-w-screen-xl h-[300px] items-center ">
                 <p class="mx-auto"></p>
